@@ -317,7 +317,7 @@ h3.l-title span {
 }
 .stats,
 .mail-l,
-.layouts_mail_grid_right,
+.mail_grid_right,
 .service,
 .gallery,
 .team-l {
@@ -632,9 +632,9 @@ a.map-l-loca i {
 }
 /*-- //map --*/
 /*-- contact-form --*/
-.layouts_mail_grid_right input[type="text"],
-.layouts_mail_grid_right input[type="email"],
-.layouts_mail_grid_right textarea {
+.mail_grid_right input[type="text"],
+.mail_grid_right input[type="email"],
+.mail_grid_right textarea {
 	outline: none;
 	padding: 0.8em;
 	font-size: 1em;
@@ -645,14 +645,14 @@ a.map-l-loca i {
 	margin-bottom: 1em;
 	letter-spacing: 1px;
 }
-.layouts_mail_grid_right textarea {
+.mail_grid_right textarea {
 	min-height: 250px;
 	margin-left: 1.1em;
 	width: 97.5% !important;
 	resize: none;
 }
-.layouts_mail_grid_right input[type="submit"],
-.layouts_mail_grid_right input[type="reset"] {
+.mail_grid_right input[type="submit"],
+.mail_grid_right input[type="reset"] {
 	outline: none;
 	padding: 0.7em 0;
 	font-size: 1.1em;
@@ -665,8 +665,8 @@ a.map-l-loca i {
 	margin-left: 1.1em;
 	letter-spacing: 1px;
 }
-.layouts_mail_grid_right input[type="submit"]:hover,
-.layouts_mail_grid_right input[type="reset"]:hover {
+.mail_grid_right input[type="submit"]:hover,
+.mail_grid_right input[type="reset"]:hover {
 	background: #f87900;
 	color: #fff;
 }
@@ -803,24 +803,24 @@ p.adam {
 	width: 72%;
 	left: 15%;
 }
-.layouts-newsletter {
+.newsletter {
 	background: #f87900;
 }
 .l-news,
-.layouts-newsletter {
+.newsletter {
 	padding: 4em 3em;
 }
-.layouts-newsletter h6,
+.newsletter h6,
 .l-news h6 {
 	color: #fff;
 	font-size: 2em;
 	letter-spacing: 2px;
 	margin-bottom: 1em;
 }
-.layouts-newsletter h6 {
+.newsletter h6 {
 	margin-bottom: 1.6em;
 }
-.layouts-newsletter h6 i {
+.newsletter h6 i {
 	margin-right: 10px;
 	vertical-align: top;
 }
@@ -1195,7 +1195,7 @@ span.hi-icon {
 }
 /*-- //Middle-section --*/
 /*-- gallery --*/
-.layouts_gallery_grid {
+.gallery_grid {
 	margin-top: 2em;
 }
 .gallerie-imagebox img {
@@ -1208,11 +1208,11 @@ span.hi-icon {
 .gallerie-imagebox .loading {
 	opacity: 0.3;
 }
-.layouts_news_grid {
+.news_grid {
 	overflow: hidden;
 	position: relative;
 }
-.layouts_news_grid_pos {
+.news_grid_pos {
 	opacity: 0;
 	position: absolute;
 	top: 0;
@@ -1224,15 +1224,15 @@ span.hi-icon {
 	-moz-transition: all 400ms ease;
 	transition: all 400ms ease;
 }
-.layouts_news_grid_pos {
+.news_grid_pos {
 	-webkit-transform: scale3d(0, 0, 1);
 	-moz-transform: scale3d(0, 0, 1);
 	-ms-transform: scale3d(0, 0, 1);
 	transform: scale3d(0, 0, 1);
 }
-.ls_news_grid:hover .layouts_news_grid .layouts_news_grid_pos,
-._agileits_team_grid:hover .layouts_news_grid .layouts_news_grid_pos,
-.layouts_gallery_grid:hover .layouts_news_grid .layouts_news_grid_pos {
+.ls_news_grid:hover .news_grid .news_grid_pos,
+._agileits_team_grid:hover .news_grid .news_grid_pos,
+.gallery_grid:hover .news_grid .news_grid_pos {
 	opacity: 1;
 	-webkit-transform: scale3d(1, 1, 1);
 	-moz-transform: scale3d(1, 1, 1);
@@ -1241,7 +1241,7 @@ span.hi-icon {
 }
 .ls_news_grid:hover .wthree_text,
 ._agileits_team_grid:hover .wthree_text,
-.layouts_gallery_grid:hover .wthree_text {
+.gallery_grid:hover .wthree_text {
 	opacity: 1;
 	-webkit-transform: translateY(0) scale3d(1, 1, 1);
 	-moz-transform: translateY(0) scale3d(1, 1, 1);
@@ -1342,7 +1342,7 @@ a._agile_vimeo:hover {
 		min-height: 455px;
 	}
 	.l-news,
-	.layouts-newsletter {
+	.newsletter {
 		padding: 4em 3em;
 	}
 }
@@ -1397,7 +1397,7 @@ a._agile_vimeo:hover {
 	}
 	.stats,
 	.mail-l,
-	.layouts_mail_grid_right,
+	.mail_grid_right,
 	.service,
 	.gallery,
 	.team-l {
@@ -1533,7 +1533,7 @@ a._agile_vimeo:hover {
 	.main-mail-lmk {
 		width: 80%;
 	}
-	.layouts_mail_grid_right textarea {
+	.mail_grid_right textarea {
 		min-height: 220px;
 		width: 95.8% !important;
 	}
@@ -1554,10 +1554,10 @@ a._agile_vimeo:hover {
 		width: 77%;
 	}
 	.l-news,
-	.layouts-newsletter {
+	.newsletter {
 		padding: 3.5em 2em;
 	}
-	.layouts-newsletter h6,
+	.newsletter h6,
 	.l-news h6 {
 		font-size: 1.8em;
 		letter-spacing: 1px;
@@ -1568,8 +1568,8 @@ a._agile_vimeo:hover {
 	.newsletter-l-main {
 		top: -14%;
 	}
-	.layouts_mail_grid_right input[type="submit"],
-	.layouts_mail_grid_right input[type="reset"] {
+	.mail_grid_right input[type="submit"],
+	.mail_grid_right input[type="reset"] {
 		width: 47%;
 	}
 	.newsletter-l-main {
@@ -1658,7 +1658,7 @@ a._agile_vimeo:hover {
 	}
 	.stats,
 	.mail-l,
-	.layouts_mail_grid_right,
+	.mail_grid_right,
 	.service,
 	.gallery,
 	.team-l {
@@ -1696,7 +1696,7 @@ a._agile_vimeo:hover {
 		height: 400px;
 	}
 	.l-news,
-	.layouts-newsletter {
+	.newsletter {
 		padding: 3em 1.5em;
 	}
 	.l-news p {
@@ -1710,7 +1710,7 @@ a._agile_vimeo:hover {
 	.serve-grids-top h5 {
 		letter-spacing: 0px;
 	}
-	.layouts_gallery_grid {
+	.gallery_grid {
 		padding: 0 0.5em;
 		margin-top: 1em;
 	}
@@ -1732,7 +1732,7 @@ a._agile_vimeo:hover {
 	.agileinfo-newsletter input[type="submit"] {
 		width: 28%;
 	}
-	.layouts-newsletter h6,
+	.newsletter h6,
 	.l-news h6 {
 		font-size: 1.7em;
 	}
@@ -1784,15 +1784,15 @@ a._agile_vimeo:hover {
 	.wthree_contact_left_grid {
 		width: 100%;
 	}
-	.layouts_mail_grid_right textarea {
+	.mail_grid_right textarea {
 		width: 95% !important;
 	}
-	.layouts_mail_grid_right input[type="submit"],
-	.layouts_mail_grid_right input[type="reset"] {
+	.mail_grid_right input[type="submit"],
+	.mail_grid_right input[type="reset"] {
 		width: 45.6%;
 	}
 	.l-news,
-	.layouts-newsletter {
+	.newsletter {
 		padding: 3em 3em;
 		width: 100%;
 	}
@@ -1805,7 +1805,7 @@ a._agile_vimeo:hover {
 	}
 	.stats,
 	.mail-l,
-	.layouts_mail_grid_right,
+	.mail_grid_right,
 	.service,
 	.gallery,
 	.team-l {
@@ -1979,7 +1979,7 @@ a._agile_vimeo:hover {
 	}
 	.stats,
 	.mail-l,
-	.layouts_mail_grid_right,
+	.mail_grid_right,
 	.service,
 	.gallery,
 	.team-l {
@@ -2028,7 +2028,7 @@ a._agile_vimeo:hover {
 		left: 19%;
 		padding: 2em 6em;
 	}
-	.layouts_mail_grid_right textarea {
+	.mail_grid_right textarea {
 		width: 93% !important;
 		min-height: 186px;
 	}
@@ -2076,7 +2076,7 @@ a._agile_vimeo:hover {
 	.pogoSlider-slide-element h3 {
 		font-size: 1.6em;
 	}
-	.layouts_gallery_grid {
+	.gallery_grid {
 		float: left;
 		width: 50%;
 	}
@@ -2110,17 +2110,17 @@ a._agile_vimeo:hover {
 	.map-pos {
 		padding: 1.5em 5em;
 	}
-	.layouts_mail_grid_right textarea {
+	.mail_grid_right textarea {
 		width: 92% !important;
 		min-height: 170px;
 	}
-	.layouts_mail_grid_right input[type="submit"],
-	.layouts_mail_grid_right input[type="reset"] {
+	.mail_grid_right input[type="submit"],
+	.mail_grid_right input[type="reset"] {
 		font-size: 1em;
 		letter-spacing: 0px;
 	}
-	.layouts_mail_grid_right input[type="submit"],
-	.layouts_mail_grid_right input[type="reset"] {
+	.mail_grid_right input[type="submit"],
+	.mail_grid_right input[type="reset"] {
 		width: 44%;
 	}
 	.agileinfo_footer_grid.f1 {
@@ -2170,7 +2170,7 @@ a._agile_vimeo:hover {
 		left: 15%;
 	}
 	.l-news,
-	.layouts-newsletter {
+	.newsletter {
 		padding: 3em 2em;
 	}
 	.agile_footer_copy {
@@ -2238,7 +2238,7 @@ a._agile_vimeo:hover {
 	}
 	.stats,
 	.mail-l,
-	.layouts_mail_grid_right,
+	.mail_grid_right,
 	.service,
 	.gallery,
 	.team-l {
@@ -2280,7 +2280,7 @@ a._agile_vimeo:hover {
 	.agileits_updates_grid_right.l-text {
 		padding: 0.5em 1.1em 1em;
 	}
-	.layouts_gallery_grid {
+	.gallery_grid {
 		width: 100%;
 	}
 	.wthree_text h3 {
@@ -2312,24 +2312,24 @@ a._agile_vimeo:hover {
 	.map-pos {
 		padding: 1.5em 3.5em;
 	}
-	.layouts_mail_grid_right input[type="text"],
-	.layouts_mail_grid_right input[type="email"],
-	.layouts_mail_grid_right textarea {
+	.mail_grid_right input[type="text"],
+	.mail_grid_right input[type="email"],
+	.mail_grid_right textarea {
 		padding: 0.7em;
 	}
 	.wthree_contact_left_grid {
 		padding: 0;
 	}
-	.layouts_mail_grid_right textarea {
+	.mail_grid_right textarea {
 		width: 100% !important;
 		min-height: 150px;
 		margin-left: 0;
 	}
-	.layouts_mail_grid_right input[type="submit"],
-	.layouts_mail_grid_right input[type="reset"] {
+	.mail_grid_right input[type="submit"],
+	.mail_grid_right input[type="reset"] {
 		width: 43%;
 	}
-	.layouts-newsletter h6,
+	.newsletter h6,
 	.l-news h6 {
 		font-size: 1.4em;
 	}
@@ -2342,7 +2342,7 @@ a._agile_vimeo:hover {
 		font-size: 14px;
 	}
 	.l-news,
-	.layouts-newsletter {
+	.newsletter {
 		padding: 2.5em 1.5em;
 	}
 	.l-news p {
